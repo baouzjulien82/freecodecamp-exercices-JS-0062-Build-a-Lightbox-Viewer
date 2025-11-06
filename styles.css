@@ -1,3 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0 20px;
+  padding: 5px;
+  background-color: rgb(126, 146, 126);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 .lightbox {
   position: fixed;
   top: 0;
