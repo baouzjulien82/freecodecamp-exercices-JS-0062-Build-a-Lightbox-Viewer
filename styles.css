@@ -39,7 +39,7 @@ h1 {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.656);
-  display: flex;
+  display: none;
   justify-content: center; /* centre horizontalement */
   align-items: center;     /* centre verticalement */
   z-index: 1000;
@@ -63,4 +63,5 @@ h1 {
   background: transparent;
   font-size: 2rem;
   color: white;
+  cursor: pointer;
 }
